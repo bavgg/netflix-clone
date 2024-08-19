@@ -1,10 +1,10 @@
-# NetflixClone with React + Typescript + Tailwind
+# NetflixClone with NextJS + ReactJS + Typescript + Tailwind
 
 ## Description
 **NetflixClone** Built using React and TypeScript, this project features user authentication, video streaming, personalized recommendations, and a responsive design. It's a perfect example of creating a complex, interactive web application with modern front-end technologies.
 
 ## Table of Contents
-- [NetflixClone with React + Typescript + Tailwind](#netflixclone-with-react--typescript--tailwind)
+- [NetflixClone with NextJS + ReactJS + Typescript + Tailwind](#netflixclone-with-nextjs--reactjs--typescript--tailwind)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
