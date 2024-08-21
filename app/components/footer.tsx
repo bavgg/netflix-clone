@@ -2,7 +2,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 function Footer() {
   return (
-    <div className=" bt-t border-[#5E5E5E] p-6 relative bottom-0 text-[#B3B3B3] font-light bg-black flex flex-col gap-6 border border- text-sm">
+    <div className="lg:mx-auto lg:max-w-[83%]   p-6 relative bottom-0 text-[#B3B3B3] font-light bg-black flex flex-col gap-6  text-sm">
       <div>Questions? Contact us.</div>
 
       <div className="grid-cols-2 grid">

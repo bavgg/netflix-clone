@@ -1,6 +1,6 @@
 
-import Footer from "../components/footer";
-import Logo from "./components/logo";
+import Footer from "../components/Footer";
+import Logo from "../components/Logo";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </div>
         </header>
         {children}
-        <div className="w-full absolute bottom-0">
+        <div className="w-full absolute bottom-0 bg-black border-t border-x-0 border-b-0  border-[#5E5E5E]">
             <Footer />
         </div>
       </section>

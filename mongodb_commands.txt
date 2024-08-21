@@ -1,0 +1,7 @@
+mongoimport "mongodb+srv://gestopajonas:VWFyYs6Di805km0W@cluster0.x28nq0l.mongodb.net/" --db=test --collection=top_movies --file=Top250Movies.json
+
+mongoimport "mongodb+srv://gestopajonas:VWFyYs6Di805km0W@cluster0.x28nq0l.mongodb.net/" --db=test --collection=top_tvs --file=Top250TVs.json
+
+mongoimport "mongodb+srv://gestopajonas:VWFyYs6Di805km0W@cluster0.x28nq0l.mongodb.net/" --db=test --collection=popular_tvs --file=MostPopularMovies.json
+
+mongoimport "mongodb+srv://gestopajonas:VWFyYs6Di805km0W@cluster0.x28nq0l.mongodb.net/" --db=test --collection=popular_movies --file=MostPopularTVs.json
