@@ -7,7 +7,7 @@ import {
   MagnifyingGlassIcon,
   UserIcon,
 } from "@heroicons/react/24/outline";
-import Logo from "./Logo";
+import Logo from "./logo";
 import { useState } from "react";
 
 export default function Navbar() {

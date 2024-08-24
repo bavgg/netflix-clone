@@ -1,6 +1,6 @@
 
-import Footer from "../components/Footer";
-import Logo from "../components/Logo";
+import Footer from "../ui/footer";
+import Logo from "../ui/logo";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

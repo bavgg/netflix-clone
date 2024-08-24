@@ -13,16 +13,17 @@ export default async function handler(
   
 
     if (req.method === "GET") {
-      const externalApiUrl = "https://multiembed.mov/directstream.php?video_id=tt26470109";
+      const externalApiUrl = "https://www.imdb.com/chart/boxoffice/?ref_=chtmvm_ql_1";
       const externalApiResponse = await axios.get(externalApiUrl);
+      console.log("🚀 ~ externalApiResponse:", externalApiResponse)
 
       if (!externalApiResponse || externalApiResponse.status !== 200) {
         throw new Error("Failed to fetch data from external API");
       }
 
-      const finalUrl = externalApiResponse.request.res.responseUrl;
-      console.log(finalUrl)
-      res.status(200).json(finalUrl);
+      // const finalUrl = externalApiResponse.request.res.responseUrl;
+      // console.log(finalUrl)
+      res.status(200).json(externalApiResponse);
 
     } 
   } catch (error) {
